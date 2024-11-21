@@ -86,10 +86,9 @@ public class P2P2 {
     		
         nSession session = connect(RNAME);
         nQueue queueIn= getQueue(session, QUEUE);
-//        nQueue queueOut = getQueue(session, QUEUE_OUT);
+//      nQueue queueOut = getQueue(session, QUEUE_OUT);
         
-
-        	//send(dummyMessage(), TAG, queueOut);
+//		send(dummyMessage(), TAG, queueOut);
         
 //        send(myBankPac004(), TAG, queueOut);
 //        send(sendFrenchMsg(), TAG, queueOut);
@@ -103,9 +102,9 @@ public class P2P2 {
 	
 //    	sendMessage("Test Message Body.");
 //       sendMessage(sendFrenchMsg());
-
 //        receive(QUEUE_IN);
 //        receivedAsJMS();
+
         System.out.println("done ...");
         disconnect(session);
         System.exit(-1);
