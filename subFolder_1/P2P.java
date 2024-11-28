@@ -12,7 +12,6 @@ import java.util.Properties;
 import java.util.UUID;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
 import javax.jms.BytesMessage;
 import javax.jms.Connection;
 import javax.jms.Destination;
@@ -61,9 +60,9 @@ public class P2P implements Runnable{
 //	static final String RNAME = "nhp://192.168.10.20:9610";		/// server 20 Cluster
 //	static final String RNAME = "nhp://UEAZDBLP000065:9400";  //// local Cluster
 	
-	static final String QUEUE= "DH_QUEUE_TST"; // node queue
-//	static final String QUEUE = "DH_QUEUE_TST_174"; // node queue
-//	static final String QUEUE = "DH_TESTING";// testing queue
+	static final String QUEUE= "DH_QUEUE_TST"; 			// node queue
+//	static final String QUEUE = "DH_QUEUE_TST_174"; 	// node queue
+//	static final String QUEUE = "DH_TESTING";			// testing queue
 	static final String TAG = "pacs.003.001.09_by_p2p_"+ Calendar.getInstance().getTime();
 
 	nSession session = null;
